@@ -1,0 +1,42 @@
+header {
+  width: calc(100vw - (100vw - 100%));
+  height: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 0 20px;
+  border-right: 2px solid var(--light-color);
+}
+
+header nav ul li:last-child {
+  border-right: none;
+}
+
+header nav ul li:hover {
+  opacity: 0.8;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--light-color);
+
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* Tablet & Desktop */
+
+@media screen and (min-width: 768px) {
+  header nav ul li a {
+    font-size: 1.6em;
+  }
+}

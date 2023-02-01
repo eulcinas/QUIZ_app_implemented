@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Quiz | Test Your JavaScipt Skills</title>
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../styles/1_resets.css" />
+    <link rel="stylesheet" href="../styles/2_variables.css" />
+    <link rel="stylesheet" href="../styles/3_header.css" />
+    <link rel="stylesheet" href="../styles/4_main.css" />
+    <link rel="stylesheet" href="../styles/5_quiz.css" />
+    <link rel="stylesheet" href="../styles/6_footer.css" />
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- CUSTOM JS -->
+    <script src="../scripts/1_header.js" defer></script>
+    <script src="../scripts/2_css.js" defer></script>
+    <script src="../scripts/3_footer.js" defer></script>
+  </head>
+  <body>
+    <header><!-- Header code --></header>
+
+    <main>
+      <div class="wrapper">
+        <div class="container">
+          <div id="timer-header">
+            <h1>Test Your CSS Skills!</h1>
+            <p id="timer" class="hide"></p>
+          </div>
+          <div class="quiz">
+            <div class="quiz__question hide">
+              <div id="question"></div>
+              <div id="answers-btns"></div>
+            </div>
+            <div class="quiz__controls">
+              <button id="start-btn" class="btn btn-start">START QUIZ <i class="fas fa-play-circle"></i></button>
+
+              <!-- Difficulty selection window -->
+              <div id="infoTable" class="info-table hide">
+                <h1>Select difficulty:</h1>
+                <div class="diff-buttons">
+                  <button id="easy-level" class="btn btn-start">EASY</button>
+                  <p class="difficulty-explanation">On this level you will have <span id="span-text-easy">30 seconds</span> for each question</p>
+                </div>
+                <div class="diff-buttons">
+                  <button id="medium-level" class="btn btn-start">MEDIUM</button>
+                  <p class="difficulty-explanation">On this level you will have <span id="span-text-medium">20 seconds</span> for each question</p>
+                </div>
+                <div class="diff-buttons">
+                  <button id="hard-level" class="btn btn-start">HARD</button>
+                  <p class="difficulty-explanation">On this level you will have <span id="span-text-hard">10 seconds</span> for each question</p>
+                </div>
+              </div>
+
+              <button id="next-btn" class="btn btn-start btn-next hide">NEXT QUESTION <i class="fas fa-chevron-right"></i></button>
+              <p id="result" class="hide"></p>
+              <!-- add a p tag to show question counter -->
+              <p id="question-counter"></p>
+              <!-- add a progress bar -->
+              <div id="progress-bar" class="hide">
+                <div id="progressBarFull"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p><span id="current-year"></span>All rights reserved</p>
+    </footer>
+  </body>
+</html>

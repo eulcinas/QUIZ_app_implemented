@@ -1,0 +1,13 @@
+footer {
+  width: calc(100vw - (100vw - 100%));
+  height: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: var(--light-color);
+  font-weight: 600;
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "answers": [
+      {
+        "text": "Hyperlinks and Text Markup Language",
+        "correct": false
+      },
+      {
+        "text": "Hyper Text Markup Language",
+        "correct": true
+      },
+      {
+        "text": "Home Tool Markup Language",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who is making the Web standards?",
+    "answers": [
+      {
+        "text": "Microsoft",
+        "correct": false
+      },
+      {
+        "text": "Mozilla",
+        "correct": false
+      },
+      {
+        "text": "The World Wide Web Consortium",
+        "correct": true
+      },
+      {
+        "text": "Google",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Who invented HTML?",
+    "answers": [
+      {
+        "text": "Brendan Eich",
+        "correct": false
+      },
+      {
+        "text": "Tim Berners-Lee",
+        "correct": true
+      },
+      {
+        "text": "Wium Lie",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When was HTML invented?",
+    "answers": [
+      {
+        "text": "1994",
+        "correct": false
+      },
+      {
+        "text": "1993",
+        "correct": false
+      },
+      {
+        "text": "1992",
+        "correct": false
+      },
+      {
+        "text": "1991",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Which is the latest HTML version?",
+    "answers": [
+      {
+        "text": "HTML2",
+        "correct": false
+      },
+      {
+        "text": "HTML3",
+        "correct": false
+      },
+      {
+        "text": "HTML4",
+        "correct": false
+      },
+      {
+        "text": "HTML5",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the HTML tag to write a paragraph?",
+    "answers": [
+      {
+        "text": "<div>",
+        "correct": false
+      },
+      {
+        "text": "<body>",
+        "correct": false
+      },
+      {
+        "text": "<p>",
+        "correct": true
+      },
+      {
+        "text": "<li>",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How many heading levels are available in HTML?",
+    "answers": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "6",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What are the three types of lists in HTML5?",
+    "answers": [
+      {
+        "text": "Ordered list, Unordered list, Description list",
+        "correct": true
+      },
+      {
+        "text": "Ordered list, Description list, Titled list",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the code to declare the HTML document type?",
+    "answers": [
+      {
+        "text": "<main>",
+        "correct": false
+      },
+      {
+        "text": "<!DOCTYPE main>",
+        "correct": false
+      },
+      {
+        "text": "<html>",
+        "correct": false
+      },
+      {
+        "text": "<!DOCTYPE html>",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the most recent update in HTML5?",
+    "answers": [
+      {
+        "text": "Table",
+        "correct": false
+      },
+      {
+        "text": "Canvas",
+        "correct": true
+      },
+      {
+        "text": "Class",
+        "correct": false
+      },
+      {
+        "text": "ID",
+        "correct": false
+      }
+    ]
+  }
+]

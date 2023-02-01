@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./styles/1_resets.css" />
+    <link rel="stylesheet" href="./styles/2_variables.css" />
+    <link rel="stylesheet" href="./styles/3_header.css" />
+    <link rel="stylesheet" href="./styles/4_main.css" />
+    <link rel="stylesheet" href="./styles/5_index.css" />
+    <link rel="stylesheet" href="./styles/6_footer.css" />
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- CUSTOM JS -->
+    <script src="./scripts/1_header.js" defer></script>
+    <script src="./scripts/3_footer.js" defer></script>
+  </head>
+  <body>
+    <header><!-- Header code --></header>
+
+    <main>
+      <div class="wrapper">
+        <div class="container">
+          <div class="hero">
+            <div class="hero__image">
+              <img src="./assets/images/html-css-js.jpg" alt="HTML, CSS, JS" />
+            </div>
+            <div class="hero__headline">
+              <h1>TEST YOUR HTML, CSS, JS SKILLS!</h1>
+            </div>
+          </div>
+
+          <div class="quizes">
+            <div class="quiz quizes__html">
+              <a href="./pages/html.html" class="btn btn-html">HTML Quiz</a>
+            </div>
+            <div class="quiz quizes__css">
+              <a href="./pages/css.html" class="btn btn-css">CSS Quiz</a>
+            </div>
+            <div class="quiz quizes__js">
+              <a href="./pages/js.html" class="btn btn-js">JavaScript Quiz</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p><span id="current-year"></span>All rights reserved</p>
+    </footer>
+  </body>
+</html>

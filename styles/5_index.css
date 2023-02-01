@@ -1,0 +1,132 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--dark-color);
+}
+
+.wrapper .container {
+  width: 100%;
+  height: 100%;
+
+  max-width: 1024px;
+  background-color: var(--light-color);
+}
+
+.wrapper .container .hero {
+  width: 100%;
+  height: 50%;
+  padding: 0 25px;
+}
+
+.wrapper .container .hero .hero__image {
+  height: 70%;
+}
+
+.wrapper .container .hero .hero__image img {
+  object-fit: contain;
+  padding-top: 25px;
+}
+
+.wrapper .container .hero .hero__headline {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .container .hero .hero__headline h1 {
+  text-align: center;
+}
+
+.wrapper .container .quizes {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quiz {
+  width: calc(100% / 3);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .container .quizes .quizes__html {
+  background-color: var(--html-color);
+}
+
+.wrapper .container .quizes .quizes__css {
+  background-color: var(--css-color);
+}
+
+.wrapper .container .quizes .quizes__js {
+  background-color: var(--js-color);
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  color: var(--dark-color);
+  padding: 10px 15px;
+  border: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  box-shadow: -5px 5px 0px 0px var(--accent-color);
+  background-color: var(--light-color);
+  transform: rotate(90deg);
+  transition: all 100ms ease;
+}
+
+.btn-html:hover {
+  background-color: #f26529;
+  color: var(--light-color);
+  box-shadow: -5px 5px 0px 0px #f26529;
+  border: 1px solid var(--light-color);
+}
+
+.btn-css:hover {
+  background-color: #39aade;
+  color: var(--light-color);
+  box-shadow: -5px 5px 0px 0px #39aade;
+  border: 1px solid var(--light-color);
+}
+
+.btn-js:hover {
+  background-color: #fbd93b;
+  color: var(--light-color);
+  box-shadow: -5px 5px 0px 0px #fbd93b;
+  border: 1px solid var(--light-color);
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .wrapper .container .hero .hero__headline h1 {
+    font-size: 2.5em;
+  }
+
+  .btn {
+    transform: rotate(0deg);
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+  .wrapper .container {
+    box-shadow: -25px 25px 0px 0px var(--accent-color);
+  }
+
+  .wrapper .container .hero .hero__headline h1 {
+    font-size: 3em;
+  }
+
+  .btn {
+    font-size: 2em;
+  }
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "answers": [
+      {
+        "text": "Colorful Style Sheets",
+        "correct": false
+      },
+      {
+        "text": "Computer Style Sheets",
+        "correct": false
+      },
+      {
+        "text": "Creative Style Sheets",
+        "correct": false
+      },
+      {
+        "text": "Cascading Style Sheets",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Who proposed the concept of CSS?",
+    "answers": [
+      {
+        "text": "Brendan Eich",
+        "correct": false
+      },
+      {
+        "text": "Tim Berners-Lee",
+        "correct": false
+      },
+      {
+        "text": "Wium Lie",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What year was CSS first proposed in?",
+    "answers": [
+      {
+        "text": "1994",
+        "correct": true
+      },
+      {
+        "text": "1993",
+        "correct": false
+      },
+      {
+        "text": "1992",
+        "correct": false
+      },
+      {
+        "text": "1991",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the correct HTML for referring to an external style sheet?",
+    "answers": [
+      {
+        "text": "<style src='mystyle.css'>",
+        "correct": false
+      },
+      {
+        "text": " <link rel='stylesheet' type='text/css' href='mystyle.css'>",
+        "correct": true
+      },
+      {
+        "text": "<stylesheet>mystyle.css</stylesheet>",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What is the main language for CSS syntax?",
+    "answers": [
+      {
+        "text": "Spanish",
+        "correct": false
+      },
+      {
+        "text": "English",
+        "correct": true
+      },
+      {
+        "text": "German",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Are classes and IDs case-sensitive?",
+    "answers": [
+      {
+        "text": "Yes",
+        "correct": true
+      },
+      {
+        "text": "No",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "How many elements can have the same ID?",
+    "answers": [
+      {
+        "text": "Any number of elements",
+        "correct": false
+      },
+      {
+        "text": "Only two elements",
+        "correct": false
+      },
+      {
+        "text": "Only a single element",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the pattern for selecting ID in CSS?",
+    "answers": [
+      {
+        "text": "E",
+        "correct": false
+      },
+      {
+        "text": ".E",
+        "correct": false
+      },
+      {
+        "text": "E ID",
+        "correct": false
+      },
+      {
+        "text": "#E",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "What is the most used CSS display property?",
+    "answers": [
+      {
+        "text": "display: flex;",
+        "correct": true
+      },
+      {
+        "text": "display: block;",
+        "correct": false
+      },
+      {
+        "text": "display: grid;",
+        "correct": false
+      },
+      {
+        "text": "Display: inline-block;",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "What are the different types of CSS?",
+    "answers": [
+      {
+        "text": "External",
+        "correct": false
+      },
+      {
+        "text": "Internal",
+        "correct": false
+      },
+      {
+        "text": "Inline",
+        "correct": false
+      },
+      {
+        "text": "All previously mentioned types",
+        "correct": true
+      }
+    ]
+  }
+]
