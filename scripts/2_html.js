@@ -37,11 +37,6 @@ const startQuiz = () => {
 
   progressBar.classList.remove('hide');
 
-  if (!resultElement.classList.contains('hide')) {
-    resultElement.classList.add('hide');
-    score = 0;
-  }
-
   resetState();
 
   index = 0;
@@ -56,6 +51,11 @@ const selectDifficulty = () => {
   timer.classList.remove('hide');
 
   startBtnElement.classList.add('hide');
+
+  if (!resultElement.classList.contains('hide')) {
+    resultElement.classList.add('hide');
+    score = 0;
+  }
 
   //! events for selecting difficulty
   easyLevelButton.addEventListener('click', (e) => {
